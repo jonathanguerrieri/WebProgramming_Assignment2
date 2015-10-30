@@ -1,6 +1,188 @@
-@mainColor: blue;
+body{
+	background-image: url("../images/BlueIcon_Background.jpg");
+	padding:5em;
+	height: 100%;
+}
+
+
+
+@pagecontaner-color :#ffffff;
+@nav-item-color :#B62537;
+@aside-background-color:#ffffff;
+@mainfont: Raleway, Sans-Serif;
+
+
+
+.page-contaner{
+	background-color: @pagecontaner-color;
+	width:77%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+// Nav-Bar Section, must be seen on every screen
+
+
+.nav-item{
+	display: inline-block;
+	padding: 1.2em;
+	background-color: @nav-item-color;
+}
+
+a{
+	text-decoration: none;
+	font-size: 19px;
+	font-family: @mainfont;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.nav-item:hover{
+	background-color: #3D4751;
+	border-bottom: #52A1D2 3px solid;
+}
+
+
+// Aside-Bar Section showing location and social icons
+
+aside{
+	float: left;
+	display: block;
+	background-color:@aside-background-color;
+	height: 1340px;
+}
+.aside-image{
+	width: 210px;
+	height: 200px;
+	padding-left: 40px;
+	padding-top: 35px;
+	padding-bottom:30px;
+	padding-right: 40px;
+}
+
+h2{
+	text-align: center;
+	color: #52A1D2;
+	font-family: @mainfont;
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 20px;
+	border-bottom: #EBEBEB 1px solid;
+}
+.aside-text{
+	font-family: @mainfont;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color:#2980BB;
+
+}
+
+.social-icons{
+	display: inline-block;
+	padding-left: 25px;
+}
+
+
+// Welcome content the user sees on homepage
+
+
+.welcome-content{
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+p{
+	font-family: @mainfont;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+text{
+	font-family: @mainfont;
+	font-weight: 700;
+	font-size: 20px;
+	color:#3D4751;
+}
 
 h1{
-	color: @mainColor;
-	display: flex;
+	font-family: @mainfont;
+	color: @nav-item-color;
+	font-size: 40px;
 }
+
+.welcome-image{
+	height: 170px;
+	width:170;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.blue-text{
+	font-family: @mainfont;
+	color: #2980BB;
+	padding-bottom: 10px;
+	border-bottom: #EBEBEB 1px solid;
+}
+
+.blue-text:hover{
+		text-decoration: underline;
+}
+
+
+// About about section and list of questions 
+
+
+.about_content{
+	padding-top: 10px;
+}
+
+button{
+	padding: 20px;
+	background-color: #1abc9c;
+	color: #ffffff;
+	border-radius: 4%;
+	width: 200px;
+	font-family: @mainfont;
+	font-size: 16px;
+}
+
+.register_content{
+	padding-top: 30px;
+}
+
+
+// Footer section shown on every page on the website.
+
+
+footer{
+	overflow: hidden;
+	background-color: white;
+	width: 77%;
+}
+
+h3{
+	font-family:  @mainfont;
+	font-weight: 700;
+	font-size: 18px;
+	float: right;
+}
+
+h4{
+	font-family: @mainfont;
+	font-weight: 700;
+	color: #29769B;
+	float: right;
+	padding-right: 60px;
+}
+
+
+
+
+
+
